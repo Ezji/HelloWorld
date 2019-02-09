@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="261.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManeSceneController">
+   <children>
+      <TextField fx:id="Text2" layoutX="103.0" layoutY="96.0" />
+      <Text fx:id="Text3" layoutX="156.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text fx:id="Text1" layoutX="166.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+      <Button fx:id="Button1" layoutX="306.0" layoutY="222.0" mnemonicParsing="false" onAction="#Action1" text="OK" />
+      <PasswordField fx:id="Text4" layoutX="103.0" layoutY="172.0" />
+      <Text fx:id="Text5" layoutX="103.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="149.0" />
+      <Text fx:id="Text5" layoutX="166.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
